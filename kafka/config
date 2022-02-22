@@ -1,0 +1,10 @@
+clusteroverride: ""
+clusters:
+- name: kafka
+  version: ""
+  brokers:
+  - kafka:18108
+  SASL: null
+  TLS: null
+  security-protocol: ""
+  schema-registry-url: ""
