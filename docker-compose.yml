@@ -76,7 +76,7 @@ services:
 #        constraints:
 #          - node.hostname == ${HOSTNAME}
   cadvisor:
-    image: registry.cn-hangzhou.aliyuncs.com/yimeng/prometheus:cadvisor
+    image: yimeng/cadvisor
     volumes:
       - /:/rootfs:ro
       - /var/run:/var/run:rw
